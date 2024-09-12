@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-09-12T15:09:40.660Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="e7Fxca0e-bkZMtcgkpO5" version="24.4.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-09-12T15:12:04.775Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="sUN9j95iKRpwEbu9Q-u3" version="24.4.0" type="github" pages="2">
   <diagram name="第 1 页" id="NU09moP4Rv5SwXD3IyAm">
     <mxGraphModel dx="842" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -204,6 +204,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="l1hgklKiiQxGqvlu1Wxm-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="720" width="530" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="l1hgklKiiQxGqvlu1Wxm-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="420" width="520" height="250" as="geometry" />
+        </mxCell>
         <mxCell id="1CXtQuqD0pY4ldLGfcNA-1" value="第三方支付" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="120" width="120" height="40" as="geometry" />
         </mxCell>
@@ -343,6 +349,59 @@
           <mxGeometry x="-0.029" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="l1hgklKiiQxGqvlu1Wxm-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="l1hgklKiiQxGqvlu1Wxm-16" target="l1hgklKiiQxGqvlu1Wxm-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l1hgklKiiQxGqvlu1Wxm-15" value="提交" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l1hgklKiiQxGqvlu1Wxm-14">
+          <mxGeometry x="-0.016" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1hgklKiiQxGqvlu1Wxm-16" value="事务管理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="740" width="110" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="l1hgklKiiQxGqvlu1Wxm-17" value="本地资源管理器&lt;br&gt;（数据库实现）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="740" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l1hgklKiiQxGqvlu1Wxm-18" value="本地资源管理器&lt;br&gt;（数据库实现）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="870" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l1hgklKiiQxGqvlu1Wxm-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.008;exitY=0.098;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="l1hgklKiiQxGqvlu1Wxm-16" target="l1hgklKiiQxGqvlu1Wxm-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="810" as="sourcePoint" />
+            <mxPoint x="420" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1hgklKiiQxGqvlu1Wxm-20" value="提交" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l1hgklKiiQxGqvlu1Wxm-19">
+          <mxGeometry x="-0.0214" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1hgklKiiQxGqvlu1Wxm-21" value="c" style="endArrow=classic;html=1;rounded=0;entryX=1.013;entryY=0.306;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.016;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="l1hgklKiiQxGqvlu1Wxm-17" target="l1hgklKiiQxGqvlu1Wxm-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="860" as="sourcePoint" />
+            <mxPoint x="450" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1hgklKiiQxGqvlu1Wxm-22" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l1hgklKiiQxGqvlu1Wxm-21">
+          <mxGeometry x="-0.0169" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1hgklKiiQxGqvlu1Wxm-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.023;entryY=0.942;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="l1hgklKiiQxGqvlu1Wxm-18" target="l1hgklKiiQxGqvlu1Wxm-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l1hgklKiiQxGqvlu1Wxm-24" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l1hgklKiiQxGqvlu1Wxm-23">
+          <mxGeometry x="-0.029" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1hgklKiiQxGqvlu1Wxm-27" value="一阶段" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="525" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l1hgklKiiQxGqvlu1Wxm-28" value="二阶段" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="820" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
