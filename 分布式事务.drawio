@@ -417,7 +417,7 @@
         <mxCell id="NWNa-zs6uHNeG2WELGYX-2" value="执行阶段：事务协调者会根据结果，通知RM回滚或者提交事务。" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="130" y="140" width="700" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NWNa-zs6uHNeG2WELGYX-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=none;noLabel=1;" vertex="1" parent="1">
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-3" value="" style="rounded=1;whiteSpace=wrap;html=1;noLabel=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="130" y="220" width="440" height="340" as="geometry" />
         </mxCell>
         <mxCell id="NWNa-zs6uHNeG2WELGYX-4" value="事务协调者" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
@@ -518,6 +518,93 @@
         </mxCell>
         <mxCell id="NWNa-zs6uHNeG2WELGYX-28" value="第二阶段" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="845" y="530" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-29" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=none;noLabel=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="640" width="980" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-30" value="RM一阶段的工作：&lt;div&gt;1、注册分支事务到TC&lt;/div&gt;&lt;div&gt;2、执行分支业务SQL但不提交&lt;/div&gt;&lt;div&gt;3、报告执行状态到TC&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;TC二阶段的工作：&lt;/div&gt;&lt;div&gt;1、TC检测各分支事务的执行状态&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1.1、如果都成功，通知所有的RM提交事务&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1.2、如果有失败，通知所有的RM回滚事务&lt;br&gt;&lt;/div&gt;&lt;div&gt;RM二阶段的工作：&lt;/div&gt;&lt;div&gt;1、接收TC指令，提交或者回滚事务&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="670" width="320" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="550" y="670" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-32" value="RM" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="670" y="670" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-33" value="微服务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="760" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-34" value="1.4 执行业务SQL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="541" y="700" width="129" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="550" y="830" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-36" value="RM" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="670" y="830" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-37" value="微服务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-38" value="1.4 执行业务SQL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="541" y="840" width="129" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-39" value="TC" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="670" width="60" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.061;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NWNa-zs6uHNeG2WELGYX-32" target="NWNa-zs6uHNeG2WELGYX-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="630" as="sourcePoint" />
+            <mxPoint x="880" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.061;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="729" y="733" as="sourcePoint" />
+            <mxPoint x="1023" y="731" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.972;entryY=0.889;entryDx=0;entryDy=0;exitX=0.028;exitY=0.376;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="NWNa-zs6uHNeG2WELGYX-39" target="NWNa-zs6uHNeG2WELGYX-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1023" y="765.5" as="sourcePoint" />
+            <mxPoint x="771" y="765.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-43" value="1.3 注册分支事务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="670" width="129" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-44" value="1.5 报告事务状态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="730" width="129" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-46" value="2.3 提交/回滚" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="780" width="129" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.061;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="847" as="sourcePoint" />
+            <mxPoint x="1024" y="845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.061;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="729" y="880" as="sourcePoint" />
+            <mxPoint x="1023" y="878" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.972;entryY=0.889;entryDx=0;entryDy=0;exitX=0.028;exitY=0.376;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1022" y="922" as="sourcePoint" />
+            <mxPoint x="728" y="924" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-50" value="1.3 注册分支事务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="817" width="129" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-51" value="1.5 报告事务状态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="877" width="129" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NWNa-zs6uHNeG2WELGYX-52" value="2.3 提交/回滚" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="927" width="129" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
