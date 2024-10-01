@@ -906,6 +906,9 @@
         <mxCell id="1GyecMTU3Bxwd1gtSrXd-17" value="1.4 资源预留（try）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1GyecMTU3Bxwd1gtSrXd-13">
           <mxGeometry x="10" y="30" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="1GyecMTU3Bxwd1gtSrXd-39" value="2.4 confirm/cancel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1GyecMTU3Bxwd1gtSrXd-13">
+          <mxGeometry x="10" y="70" width="100" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="1GyecMTU3Bxwd1gtSrXd-18" value="" style="group" vertex="1" connectable="0" parent="1GyecMTU3Bxwd1gtSrXd-1">
           <mxGeometry x="400" y="250" width="160" height="120" as="geometry" />
         </mxCell>
@@ -1000,6 +1003,12 @@
           <mxGeometry x="0.2223" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1GyecMTU3Bxwd1gtSrXd-40" value="2.4 confirm/cancel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="526" y="981" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GyecMTU3Bxwd1gtSrXd-41" value="3、优缺点&lt;div&gt;TCC模式每个阶段是做什么？&lt;/div&gt;&lt;div&gt;try：资源检查和预留&lt;/div&gt;&lt;div&gt;confirm：业务执行和提交&lt;/div&gt;&lt;div&gt;cancel：预留资源的释放&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;TCC优点是什么？&lt;/div&gt;&lt;div&gt;* 一阶段完成直接提交事务，释放数据库资源，性能好&lt;/div&gt;&lt;div&gt;* 相比AT模型，无需生成快照，无需使用全局锁，性能最强&lt;/div&gt;&lt;div&gt;* 不依赖数据库事务，而是依赖补偿操作，可以用于非事务型数据库&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;TCC的缺点是什么？&lt;/div&gt;&lt;div&gt;* 有代码侵入，需要人为编写try、confirm和cancel接口，太麻烦&lt;/div&gt;&lt;div&gt;* 软状态，事务是最终一致&lt;/div&gt;&lt;div&gt;* 需要考虑confirm和cancel的失败情况，做好幂等处理&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1139" width="790" height="231" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
