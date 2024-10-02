@@ -845,8 +845,8 @@
         <mxCell id="1GyecMTU3Bxwd1gtSrXd-41" value="3、优缺点&lt;div&gt;TCC模式每个阶段是做什么？&lt;/div&gt;&lt;div&gt;try：资源检查和预留&lt;/div&gt;&lt;div&gt;confirm：业务执行和提交&lt;/div&gt;&lt;div&gt;cancel：预留资源的释放&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;TCC优点是什么？&lt;/div&gt;&lt;div&gt;* 一阶段完成直接提交事务，释放数据库资源，性能好&lt;/div&gt;&lt;div&gt;* 相比AT模型，无需生成快照，无需使用全局锁，性能最强&lt;/div&gt;&lt;div&gt;* 不依赖数据库事务，而是依赖补偿操作，可以用于非事务型数据库&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;TCC的缺点是什么？&lt;/div&gt;&lt;div&gt;* 有代码侵入，需要人为编写try、confirm和cancel接口，太麻烦&lt;/div&gt;&lt;div&gt;* 软状态，事务是最终一致&lt;/div&gt;&lt;div&gt;* 需要考虑confirm和cancel的失败情况，做好幂等处理&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="1139" width="790" height="231" as="geometry" />
         </mxCell>
-        <mxCell id="YkrrQ61KGh47gt5L2kXj-2" value="4、新概念&lt;div&gt;空回滚：这个时候cancel不能报错，因为如果报错则seata会进行等待，然后继续执行cancel，进而一直循环等待。&lt;/div&gt;&lt;div&gt;当某分支事务的try阶段阻塞时，可能导致全局事务超时而触发二阶段的cancel操作。在未执行try操作时先执行了。&lt;/div&gt;&lt;div&gt;cancel操作，这时cancel不能做回滚，就是空回滚。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1390" width="790" height="70" as="geometry" />
+        <mxCell id="YkrrQ61KGh47gt5L2kXj-2" value="4、新概念&lt;div&gt;空回滚：这个时候cancel不能报错，因为如果报错则seata会进行等待，然后继续执行cancel，进而一直循环等待。&lt;/div&gt;&lt;div&gt;当某分支事务的try阶段阻塞时，可能导致全局事务超时而触发二阶段的cancel操作。在未执行try操作时先执行了。&lt;/div&gt;&lt;div&gt;cancel操作，这时cancel不能做回滚，就是空回滚。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;业务悬挂：对于已经空回滚的业务，如果以后继续执行try，就永远不可能confirm或者cancel，这就是业务悬挂。应当阻止执行空回滚后的try操作，避免悬挂。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1390" width="790" height="110" as="geometry" />
         </mxCell>
         <mxCell id="YkrrQ61KGh47gt5L2kXj-3" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="120" y="660" width="980" height="450" as="geometry" />
@@ -1020,7 +1020,7 @@
           <mxGeometry x="120" y="1480" width="980" height="450" as="geometry" />
         </mxCell>
         <mxCell id="YkrrQ61KGh47gt5L2kXj-5" value="" style="group" vertex="1" connectable="0" parent="YkrrQ61KGh47gt5L2kXj-4">
-          <mxGeometry width="980" height="450" as="geometry" />
+          <mxGeometry y="40" width="980" height="450" as="geometry" />
         </mxCell>
         <mxCell id="YkrrQ61KGh47gt5L2kXj-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=none;noLabel=1;" vertex="1" parent="YkrrQ61KGh47gt5L2kXj-5">
           <mxGeometry width="980" height="450" as="geometry" />
