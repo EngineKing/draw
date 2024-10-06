@@ -1632,6 +1632,9 @@
         <mxCell id="uAexk73380iNG1okQZ6p-21" value="2.1 获取DB锁，根据快照恢复数据" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="2090" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="uAexk73380iNG1okQZ6p-22" value="&lt;div&gt;3、全局锁&lt;/div&gt;&lt;div&gt;全局锁：由TC（事务协调者）记录当前正在操作某行数据的事务，该事务持有全局锁，具备执行权&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2160" width="640" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
