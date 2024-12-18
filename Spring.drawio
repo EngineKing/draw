@@ -375,8 +375,53 @@
             <mxPoint x="225" y="175" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u4gDQgw1fZiVdgnvBciw-1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-186" y="103" width="120" height="80" as="geometry" />
+        <mxCell id="qsixy9FHYtFsXlv4dmKB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qsixy9FHYtFsXlv4dmKB-1" target="qsixy9FHYtFsXlv4dmKB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qsixy9FHYtFsXlv4dmKB-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-174.5" y="137" width="105" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="qsixy9FHYtFsXlv4dmKB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qsixy9FHYtFsXlv4dmKB-2" target="qsixy9FHYtFsXlv4dmKB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qsixy9FHYtFsXlv4dmKB-2" value="根据beanName从现有实例缓存中获取当前实例" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-186" y="231" width="128" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qsixy9FHYtFsXlv4dmKB-3" value="获取当前实例为空并且当前beanName正在创建中" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-211" y="344" width="178" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="qsixy9FHYtFsXlv4dmKB-7" value="结束" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-311" y="1225" width="105" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="qsixy9FHYtFsXlv4dmKB-8" value="返回当前实例" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-311" y="1146" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qsixy9FHYtFsXlv4dmKB-9" value="根据beanName从早期引用实例缓存中获取当前实例" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-33" y="451" width="128" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qsixy9FHYtFsXlv4dmKB-10" value="获取当前实例为空并且允许早期引用" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-62" y="573" width="178" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="qsixy9FHYtFsXlv4dmKB-11" value="锁定现有实例缓存" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-39" y="712" width="128" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qsixy9FHYtFsXlv4dmKB-12" value="根据beanName再次从现有实例缓存中获取当前实例" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-41" y="805" width="128" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qsixy9FHYtFsXlv4dmKB-13" value="获取当前实例为空" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-69.5" y="896" width="178" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="qsixy9FHYtFsXlv4dmKB-14" value="根据beanName从早期引用实例缓存中获取当前实例" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-33" y="1026" width="128" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qsixy9FHYtFsXlv4dmKB-15" value="获取当前实例为空" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-58" y="1136" width="178" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="qsixy9FHYtFsXlv4dmKB-16" value="根据beanName从单例工厂缓存中获取当前实例工厂" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-23" y="1273" width="128" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qsixy9FHYtFsXlv4dmKB-17" value="获取当前实例工厂不为空" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-62" y="1378" width="178" height="98" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
