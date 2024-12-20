@@ -390,7 +390,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qsixy9FHYtFsXlv4dmKB-9" value="根据beanName从早期引用实例缓存中获取当前实例" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-35" y="404" width="128" height="70" as="geometry" />
+          <mxGeometry x="-63" y="378" width="128" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rnyJIGoyTwCXXDh84Sm9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qsixy9FHYtFsXlv4dmKB-10" target="qsixy9FHYtFsXlv4dmKB-11">
           <mxGeometry relative="1" as="geometry" />
@@ -409,19 +409,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qsixy9FHYtFsXlv4dmKB-10" value="获取当前实例为空并且允许早期引用" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-60" y="514" width="178" height="98" as="geometry" />
+          <mxGeometry x="-88" y="476" width="178" height="98" as="geometry" />
         </mxCell>
         <mxCell id="rnyJIGoyTwCXXDh84Sm9-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qsixy9FHYtFsXlv4dmKB-11" target="qsixy9FHYtFsXlv4dmKB-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qsixy9FHYtFsXlv4dmKB-11" value="锁定现有实例缓存" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="90" y="634" width="128" height="70" as="geometry" />
+          <mxGeometry x="53" y="574" width="128" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rnyJIGoyTwCXXDh84Sm9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qsixy9FHYtFsXlv4dmKB-12" target="qsixy9FHYtFsXlv4dmKB-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qsixy9FHYtFsXlv4dmKB-12" value="根据beanName再次从现有实例缓存中获取当前实例" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="90" y="760" width="128" height="70" as="geometry" />
+          <mxGeometry x="53" y="683" width="128" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rnyJIGoyTwCXXDh84Sm9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qsixy9FHYtFsXlv4dmKB-13" target="qsixy9FHYtFsXlv4dmKB-14">
           <mxGeometry relative="1" as="geometry" />
@@ -440,13 +440,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qsixy9FHYtFsXlv4dmKB-13" value="获取当前实例为空" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="65" y="879" width="178" height="98" as="geometry" />
+          <mxGeometry x="28" y="789" width="178" height="98" as="geometry" />
         </mxCell>
         <mxCell id="rnyJIGoyTwCXXDh84Sm9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qsixy9FHYtFsXlv4dmKB-14" target="qsixy9FHYtFsXlv4dmKB-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qsixy9FHYtFsXlv4dmKB-14" value="根据beanName从早期引用实例缓存中获取当前实例" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="235" y="998" width="128" height="70" as="geometry" />
+          <mxGeometry x="176" y="865" width="128" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rnyJIGoyTwCXXDh84Sm9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qsixy9FHYtFsXlv4dmKB-15" target="qsixy9FHYtFsXlv4dmKB-16">
           <mxGeometry relative="1" as="geometry" />
@@ -465,16 +465,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qsixy9FHYtFsXlv4dmKB-15" value="获取当前实例为空" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="210" y="1114" width="178" height="98" as="geometry" />
+          <mxGeometry x="151" y="956" width="178" height="98" as="geometry" />
         </mxCell>
         <mxCell id="rnyJIGoyTwCXXDh84Sm9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qsixy9FHYtFsXlv4dmKB-16" target="qsixy9FHYtFsXlv4dmKB-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qsixy9FHYtFsXlv4dmKB-16" value="根据beanName从单例工厂缓存中获取当前实例工厂" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="358" y="1229" width="128" height="70" as="geometry" />
+          <mxGeometry x="289" y="1045" width="128" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rnyJIGoyTwCXXDh84Sm9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qsixy9FHYtFsXlv4dmKB-17" target="qsixy9FHYtFsXlv4dmKB-18">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rnyJIGoyTwCXXDh84Sm9-34" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rnyJIGoyTwCXXDh84Sm9-16">
+          <mxGeometry x="-0.4765" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="rnyJIGoyTwCXXDh84Sm9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qsixy9FHYtFsXlv4dmKB-17" target="qsixy9FHYtFsXlv4dmKB-8">
           <mxGeometry relative="1" as="geometry" />
@@ -485,25 +490,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qsixy9FHYtFsXlv4dmKB-17" value="获取当前实例工厂不为空" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="333" y="1345" width="178" height="98" as="geometry" />
+          <mxGeometry x="264" y="1139" width="178" height="98" as="geometry" />
         </mxCell>
         <mxCell id="rnyJIGoyTwCXXDh84Sm9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qsixy9FHYtFsXlv4dmKB-18" target="qsixy9FHYtFsXlv4dmKB-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qsixy9FHYtFsXlv4dmKB-18" value="调用当前实例工厂的getObject方法获取当前实例" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="468" y="1476" width="128" height="70" as="geometry" />
+          <mxGeometry x="417" y="1235" width="128" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rnyJIGoyTwCXXDh84Sm9-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qsixy9FHYtFsXlv4dmKB-19" target="qsixy9FHYtFsXlv4dmKB-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qsixy9FHYtFsXlv4dmKB-19" value="放入早期引用实例缓存" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="468" y="1597" width="128" height="70" as="geometry" />
+          <mxGeometry x="417" y="1336" width="128" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rnyJIGoyTwCXXDh84Sm9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qsixy9FHYtFsXlv4dmKB-20" target="qsixy9FHYtFsXlv4dmKB-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qsixy9FHYtFsXlv4dmKB-20" value="删除实例工厂缓存" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="468" y="1718" width="128" height="70" as="geometry" />
+          <mxGeometry x="417" y="1433" width="128" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rnyJIGoyTwCXXDh84Sm9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qsixy9FHYtFsXlv4dmKB-3" target="qsixy9FHYtFsXlv4dmKB-8">
           <mxGeometry relative="1" as="geometry">
