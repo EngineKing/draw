@@ -350,7 +350,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="V2Lm9X90hsyHm_2Jpi-1" name="循环依赖">
-    <mxGraphModel dx="1384" dy="624" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="624" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -378,7 +378,7 @@
           <mxGeometry x="-211" y="311" width="178" height="98" as="geometry" />
         </mxCell>
         <mxCell id="qsixy9FHYtFsXlv4dmKB-7" value="结束" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-334.5" y="1663.5" width="105" height="48" as="geometry" />
+          <mxGeometry x="-334.5" y="1647" width="105" height="48" as="geometry" />
         </mxCell>
         <mxCell id="rnyJIGoyTwCXXDh84Sm9-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qsixy9FHYtFsXlv4dmKB-8" target="qsixy9FHYtFsXlv4dmKB-7">
           <mxGeometry relative="1" as="geometry" />
@@ -517,6 +517,58 @@
         </mxCell>
         <mxCell id="rnyJIGoyTwCXXDh84Sm9-26" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rnyJIGoyTwCXXDh84Sm9-19">
           <mxGeometry x="-0.9414" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnyJIGoyTwCXXDh84Sm9-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="rnyJIGoyTwCXXDh84Sm9-36" target="rnyJIGoyTwCXXDh84Sm9-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rnyJIGoyTwCXXDh84Sm9-45" value="&amp;nbsp;1.查询一级缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rnyJIGoyTwCXXDh84Sm9-38">
+          <mxGeometry x="0.0465" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnyJIGoyTwCXXDh84Sm9-36" value="请求Bean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-331" y="2038" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rnyJIGoyTwCXXDh84Sm9-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rnyJIGoyTwCXXDh84Sm9-37" target="rnyJIGoyTwCXXDh84Sm9-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rnyJIGoyTwCXXDh84Sm9-46" value="2.查询二级缓存，查看Bean是否在创建中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rnyJIGoyTwCXXDh84Sm9-41">
+          <mxGeometry x="0.0107" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnyJIGoyTwCXXDh84Sm9-37" value="singletonObjects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-331" y="1866.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rnyJIGoyTwCXXDh84Sm9-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rnyJIGoyTwCXXDh84Sm9-39" target="rnyJIGoyTwCXXDh84Sm9-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rnyJIGoyTwCXXDh84Sm9-47" value="3.请求ObjectFactory&lt;br&gt;创建Bean" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rnyJIGoyTwCXXDh84Sm9-42">
+          <mxGeometry x="-0.1706" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnyJIGoyTwCXXDh84Sm9-39" value="earlySingletonObjects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-125.5" y="1757.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rnyJIGoyTwCXXDh84Sm9-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rnyJIGoyTwCXXDh84Sm9-40" target="rnyJIGoyTwCXXDh84Sm9-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rnyJIGoyTwCXXDh84Sm9-48" value="5.返回Bean" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rnyJIGoyTwCXXDh84Sm9-44">
+          <mxGeometry x="0.0156" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnyJIGoyTwCXXDh84Sm9-40" value="singletonFactories" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2.5" y="1926.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rnyJIGoyTwCXXDh84Sm9-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.608;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rnyJIGoyTwCXXDh84Sm9-40" target="rnyJIGoyTwCXXDh84Sm9-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rnyJIGoyTwCXXDh84Sm9-49" value="4.将Bean从三级缓存&lt;div&gt;移动到二级缓存&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rnyJIGoyTwCXXDh84Sm9-43">
+          <mxGeometry x="-0.182" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
