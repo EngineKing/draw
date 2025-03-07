@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="25.0.3" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0" pages="4">
   <diagram id="uI3kbpiiPvoebp64g3PW" name="getBean">
     <mxGraphModel dx="856" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -735,6 +735,56 @@
         </mxCell>
         <mxCell id="3P_7tjco7xPTBEKXwNdU-57" value="Selector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="990" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iMvxio2SD26lwI2n1ZNa" name="Tomcat结构图">
+    <mxGraphModel dx="984" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FaiZnH13__XG9D_TZAkA-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="230" y="165" width="690" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="FaiZnH13__XG9D_TZAkA-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FaiZnH13__XG9D_TZAkA-3">
+          <mxGeometry width="680" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="FaiZnH13__XG9D_TZAkA-2" value="Connector" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="FaiZnH13__XG9D_TZAkA-3">
+          <mxGeometry x="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FaiZnH13__XG9D_TZAkA-4" value="" style="group" vertex="1" connectable="0" parent="FaiZnH13__XG9D_TZAkA-3">
+          <mxGeometry x="20" y="50" width="535.71" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="FaiZnH13__XG9D_TZAkA-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FaiZnH13__XG9D_TZAkA-4">
+          <mxGeometry width="500" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="FaiZnH13__XG9D_TZAkA-6" value="Protocol" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="FaiZnH13__XG9D_TZAkA-4">
+          <mxGeometry x="35.714285714285715" width="89.28571428571429" height="28.75" as="geometry" />
+        </mxCell>
+        <mxCell id="FaiZnH13__XG9D_TZAkA-7" value="" style="group" vertex="1" connectable="0" parent="FaiZnH13__XG9D_TZAkA-4">
+          <mxGeometry x="35.71" y="50" width="344.29" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FaiZnH13__XG9D_TZAkA-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FaiZnH13__XG9D_TZAkA-7">
+          <mxGeometry width="310" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FaiZnH13__XG9D_TZAkA-9" value="Endpoint" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="FaiZnH13__XG9D_TZAkA-7">
+          <mxGeometry x="24.59214285714286" width="61.48035714285716" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FaiZnH13__XG9D_TZAkA-10" value="Acceptor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FaiZnH13__XG9D_TZAkA-7">
+          <mxGeometry x="24.591576596283605" y="50" width="95.13182435699647" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FaiZnH13__XG9D_TZAkA-11" value="Executor" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="FaiZnH13__XG9D_TZAkA-7">
+          <mxGeometry x="161.95400331575678" y="50" width="95.13182435699647" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FaiZnH13__XG9D_TZAkA-12" value="Processor" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="FaiZnH13__XG9D_TZAkA-4">
+          <mxGeometry x="370.0040033157568" y="100" width="95.13182435699647" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FaiZnH13__XG9D_TZAkA-13" value="Mapper" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="FaiZnH13__XG9D_TZAkA-3">
+          <mxGeometry x="550.0040033157568" y="75" width="95.13182435699647" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FaiZnH13__XG9D_TZAkA-14" value="CoyoteAdaptor" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="FaiZnH13__XG9D_TZAkA-3">
+          <mxGeometry x="550.0040033157568" y="175" width="95.13182435699647" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
