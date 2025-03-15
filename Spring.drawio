@@ -1338,17 +1338,17 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PibjSRjJEi4BvgHVTT-q" name="SSL">
-    <mxGraphModel dx="984" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="679" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="G2Z3z9OPJJBUTLwA5IME-1" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="240" y="220" width="360" height="200" as="geometry" />
+          <mxGeometry x="40" y="360" width="360" height="200" as="geometry" />
         </mxCell>
         <mxCell id="G2Z3z9OPJJBUTLwA5IME-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="G2Z3z9OPJJBUTLwA5IME-1">
           <mxGeometry width="360" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G2Z3z9OPJJBUTLwA5IME-3" value="应用层协议" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=1;colspan=3;" vertex="1" parent="G2Z3z9OPJJBUTLwA5IME-2">
+        <mxCell id="G2Z3z9OPJJBUTLwA5IME-3" value="应用层协议" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#C73500;overflow=hidden;fillColor=#fa6800;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=1;colspan=3;fontColor=#000000;" vertex="1" parent="G2Z3z9OPJJBUTLwA5IME-2">
           <mxGeometry width="360" height="40" as="geometry">
             <mxRectangle width="120" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -1366,7 +1366,7 @@
         <mxCell id="G2Z3z9OPJJBUTLwA5IME-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="G2Z3z9OPJJBUTLwA5IME-1">
           <mxGeometry y="40" width="360" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G2Z3z9OPJJBUTLwA5IME-7" value="SSL握手协议" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#B09500;overflow=hidden;fillColor=#e3c800;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontColor=#000000;" vertex="1" parent="G2Z3z9OPJJBUTLwA5IME-6">
+        <mxCell id="G2Z3z9OPJJBUTLwA5IME-7" value="SSL握手协议" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#B09500;overflow=hidden;fillColor=#e3c800;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;shadow=0;perimeterSpacing=6;" vertex="1" parent="G2Z3z9OPJJBUTLwA5IME-6">
           <mxGeometry width="120" height="40" as="geometry">
             <mxRectangle width="120" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -1399,7 +1399,7 @@
             <mxRectangle width="120" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2Z3z9OPJJBUTLwA5IME-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="G2Z3z9OPJJBUTLwA5IME-1">
+        <mxCell id="G2Z3z9OPJJBUTLwA5IME-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#C73500;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fa6800;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="G2Z3z9OPJJBUTLwA5IME-1">
           <mxGeometry y="120" width="360" height="40" as="geometry" />
         </mxCell>
         <mxCell id="G2Z3z9OPJJBUTLwA5IME-15" value="TCP" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=1;colspan=3;" vertex="1" parent="G2Z3z9OPJJBUTLwA5IME-14">
@@ -1420,7 +1420,7 @@
         <mxCell id="G2Z3z9OPJJBUTLwA5IME-18" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="G2Z3z9OPJJBUTLwA5IME-1">
           <mxGeometry y="160" width="360" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G2Z3z9OPJJBUTLwA5IME-19" value="IP" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=1;colspan=3;" vertex="1" parent="G2Z3z9OPJJBUTLwA5IME-18">
+        <mxCell id="G2Z3z9OPJJBUTLwA5IME-19" value="IP" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#314354;overflow=hidden;fillColor=#647687;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=1;colspan=3;fontColor=#ffffff;" vertex="1" parent="G2Z3z9OPJJBUTLwA5IME-18">
           <mxGeometry width="360" height="40" as="geometry">
             <mxRectangle width="120" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -1434,6 +1434,45 @@
           <mxGeometry x="240" width="120" height="40" as="geometry">
             <mxRectangle width="120" height="40" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="G2Z3z9OPJJBUTLwA5IME-22" value="HTTP" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="40" y="59" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2Z3z9OPJJBUTLwA5IME-23" value="SMTP" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="200" y="59" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2Z3z9OPJJBUTLwA5IME-24" value="FTP" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="360" y="59" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2Z3z9OPJJBUTLwA5IME-25" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="440" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="G2Z3z9OPJJBUTLwA5IME-26" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G2Z3z9OPJJBUTLwA5IME-25" target="G2Z3z9OPJJBUTLwA5IME-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="230" as="sourcePoint" />
+            <mxPoint x="220" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G2Z3z9OPJJBUTLwA5IME-27" value="Secure Socket Layer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="160" y="176" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2Z3z9OPJJBUTLwA5IME-29" value="TCP/IP Layer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="160" y="234" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2Z3z9OPJJBUTLwA5IME-30" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="140" as="sourcePoint" />
+            <mxPoint x="640" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G2Z3z9OPJJBUTLwA5IME-31" value="Application Layer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="490" y="74" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2Z3z9OPJJBUTLwA5IME-32" value="Transport Layer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="490" y="176" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2Z3z9OPJJBUTLwA5IME-33" value="Network Layer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="490" y="234" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
