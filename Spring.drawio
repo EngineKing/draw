@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.4" pages="11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.8" pages="11">
   <diagram id="uI3kbpiiPvoebp64g3PW" name="getBean">
     <mxGraphModel dx="984" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1684,10 +1684,56 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7zy7PhaKtv5fWV7uKNnH" name="大模型场景">
-    <mxGraphModel dx="489" dy="315" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1803" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rY31e-zzi1SSrW467nP--1" value="基础通信框架" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rY31e-zzi1SSrW467nP--2" value="应用生成平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rY31e-zzi1SSrW467nP--3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="280" y="150" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rY31e-zzi1SSrW467nP--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rY31e-zzi1SSrW467nP--4" target="rY31e-zzi1SSrW467nP--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rY31e-zzi1SSrW467nP--8" value="用户指令+需求/接口文档" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rY31e-zzi1SSrW467nP--7">
+          <mxGeometry x="-0.1667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rY31e-zzi1SSrW467nP--4" value="研发工作台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rY31e-zzi1SSrW467nP--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rY31e-zzi1SSrW467nP--6" target="rY31e-zzi1SSrW467nP--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rY31e-zzi1SSrW467nP--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rY31e-zzi1SSrW467nP--6" target="rY31e-zzi1SSrW467nP--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rY31e-zzi1SSrW467nP--15" value="JSON文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rY31e-zzi1SSrW467nP--13">
+          <mxGeometry x="-0.7545" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rY31e-zzi1SSrW467nP--6" value="大模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rY31e-zzi1SSrW467nP--9" value="应用生成平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rY31e-zzi1SSrW467nP--12" value="飞云DevOps平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rY31e-zzi1SSrW467nP--16" value="模型定义" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="360" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rY31e-zzi1SSrW467nP--17" value="模型定义" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="460" width="130" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
