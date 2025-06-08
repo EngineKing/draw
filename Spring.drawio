@@ -2034,27 +2034,6 @@
         <mxCell id="bel_awWPye9EC5p0me5o-305" value="Channel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontFamily=Garamond;fontColor=light-dark(#ffffff, #ededed);" vertex="1" parent="1">
           <mxGeometry x="4720" y="1814" width="1650" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="bel_awWPye9EC5p0me5o-309" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="4740" y="1950" width="1640" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="bel_awWPye9EC5p0me5o-306" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;dashed=1;fontColor=light-dark(#d79a02, #ededed);strokeWidth=3;strokeColor=light-dark(#ffffff, #ededed);" vertex="1" parent="bel_awWPye9EC5p0me5o-309">
-          <mxGeometry y="35" width="320" height="145" as="geometry" />
-        </mxCell>
-        <mxCell id="bel_awWPye9EC5p0me5o-304" value="ChannelHandler" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=light-dark(#3b454f, #ededed);strokeColor=light-dark(#ffffff, #c98531);fontFamily=Garamond;strokeWidth=3;fontColor=light-dark(#FFFFFF,#EDEDED);" vertex="1" parent="bel_awWPye9EC5p0me5o-309">
-          <mxGeometry x="40" y="65" width="220" height="85" as="geometry" />
-        </mxCell>
-        <mxCell id="bel_awWPye9EC5p0me5o-307" value="Head" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontFamily=Garamond;fontColor=light-dark(#ffffff, #ededed);" vertex="1" parent="bel_awWPye9EC5p0me5o-309">
-          <mxGeometry width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="bel_awWPye9EC5p0me5o-308" value="ChannelHandlerContext" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontFamily=Garamond;fontColor=light-dark(#ffffff, #ededed);" vertex="1" parent="bel_awWPye9EC5p0me5o-309">
-          <mxGeometry y="180" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="WTGaxb49kDiTvq7XvmJ7-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;strokeColor=#6c8ebf;textShadow=1;" vertex="1" parent="bel_awWPye9EC5p0me5o-309">
-          <mxGeometry x="-30" y="-70" width="1660" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="WTGaxb49kDiTvq7XvmJ7-7" value="Channel Pipeline" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontFamily=Garamond;fontColor=light-dark(#ffffff, #ededed);" vertex="1" parent="bel_awWPye9EC5p0me5o-309">
-          <mxGeometry y="-70" width="1610" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="bel_awWPye9EC5p0me5o-310" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="5180" y="1950" width="320" height="210" as="geometry" />
         </mxCell>
@@ -2132,6 +2111,24 @@
         </mxCell>
         <mxCell id="WTGaxb49kDiTvq7XvmJ7-9" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;pingfang SC&amp;quot;, &amp;quot;helvetica neue&amp;quot;, arial, &amp;quot;hiragino sans gb&amp;quot;, &amp;quot;microsoft yahei ui&amp;quot;, &amp;quot;microsoft yahei&amp;quot;, simsun, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;在处理入站事件的时候，入站事件及数据会从 Pipeline 中的双向链表的头 ChannelHandlerContext 流向尾 ChannelHandlerContext，并依次在其中每个 ChannelInboundHandler（例如解码 Handler）中得到处理；出站事件及数据会从 Pipeline 中的双向链表的尾 ChannelHandlerContext 流向头 ChannelHandlerContext，并依次在其中每个 ChannelOutboundHandler（例如编码 Handler）中得到处理。&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4670" y="2500" width="1110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WTGaxb49kDiTvq7XvmJ7-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;strokeColor=#6c8ebf;textShadow=1;" vertex="1" parent="1">
+          <mxGeometry x="4710" y="1880" width="1660" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="bel_awWPye9EC5p0me5o-306" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;dashed=1;fontColor=light-dark(#d79a02, #ededed);strokeWidth=3;strokeColor=light-dark(#ffffff, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="4740" y="1985" width="320" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="bel_awWPye9EC5p0me5o-304" value="ChannelHandler" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=light-dark(#3b454f, #ededed);strokeColor=light-dark(#ffffff, #c98531);fontFamily=Garamond;strokeWidth=3;fontColor=light-dark(#FFFFFF,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="4780" y="2015" width="220" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="bel_awWPye9EC5p0me5o-307" value="Head" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontFamily=Garamond;fontColor=light-dark(#ffffff, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="4740" y="1950" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bel_awWPye9EC5p0me5o-308" value="ChannelHandlerContext" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontFamily=Garamond;fontColor=light-dark(#ffffff, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="4740" y="2130" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WTGaxb49kDiTvq7XvmJ7-7" value="Channel Pipeline" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontFamily=Garamond;fontColor=light-dark(#ffffff, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="4740" y="1880" width="1610" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
