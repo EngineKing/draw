@@ -1854,6 +1854,12 @@
             <mxPoint x="2441.7750000000005" y="2081.02" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="bel_awWPye9EC5p0me5o-192" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=light-dark(#ffffff, #ededed);fontSize=14;strokeColor=light-dark(#ffffff, #ededed);strokeWidth=2;" edge="1" parent="1" source="bel_awWPye9EC5p0me5o-105" target="bel_awWPye9EC5p0me5o-176">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2540" y="2250" as="sourcePoint" />
+            <mxPoint x="2718" y="2330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
