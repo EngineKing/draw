@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T00:36:35.825Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="24.1.0" etag="54LucIxvcJqG5qbh0gTO" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="第 1 页" id="Lb96zFHRA7Kyef2jrqLl">
-    <mxGraphModel>
+    <mxGraphModel dx="474" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vTspplcChlB5NHPaV_RJ-1" value="去IOE的概念" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTspplcChlB5NHPaV_RJ-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTspplcChlB5NHPaV_RJ-3" value="狭义理解" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="135" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTspplcChlB5NHPaV_RJ-5" value="IBM小型机" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="135" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTspplcChlB5NHPaV_RJ-6" value="Oracle数据库" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="135" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTspplcChlB5NHPaV_RJ-7" value="EMC存储设备" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="135" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTspplcChlB5NHPaV_RJ-8" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTspplcChlB5NHPaV_RJ-9" value="广义理解" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTspplcChlB5NHPaV_RJ-10" value="小型机" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTspplcChlB5NHPaV_RJ-11" value="商业闭源数据库" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="235" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTspplcChlB5NHPaV_RJ-12" value="存储阵列" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="235" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTspplcChlB5NHPaV_RJ-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.327;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vTspplcChlB5NHPaV_RJ-2" target="vTspplcChlB5NHPaV_RJ-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="200" as="sourcePoint" />
+            <mxPoint x="420" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vTspplcChlB5NHPaV_RJ-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.327;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="180" as="sourcePoint" />
+            <mxPoint x="490" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vTspplcChlB5NHPaV_RJ-18" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.327;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="614.5" y="180" as="sourcePoint" />
+            <mxPoint x="614.5" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
