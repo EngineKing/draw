@@ -2643,7 +2643,7 @@
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-20" value="更新【通道表】与【业务表】业务状态为成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-730" y="544" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gvVCFOxSMa2MWXzD_gpK-22" value="根据原交易重新发起补入账（借客户帐贷3518）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="gvVCFOxSMa2MWXzD_gpK-22" value="根据原交易重新发起补入账（借3518贷客户账）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-570" y="544" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gvVCFOxSMa2MWXzD_gpK-27" target="gvVCFOxSMa2MWXzD_gpK-122">
@@ -2762,7 +2762,7 @@
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-66" value="更新【通道表】与【业务表】业务状态为成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-60" y="544" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gvVCFOxSMa2MWXzD_gpK-67" value="根据原交易重新发起补入账（借客户账贷3518）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="gvVCFOxSMa2MWXzD_gpK-67" value="根据原交易重新发起补入账（借3518贷客户账）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="100" y="549" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gvVCFOxSMa2MWXzD_gpK-72" target="gvVCFOxSMa2MWXzD_gpK-75">
