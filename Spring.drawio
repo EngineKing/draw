@@ -2650,7 +2650,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-27" value="确认【差错原因码】" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="242.5" y="740" width="120" height="60" as="geometry" />
+          <mxGeometry x="242.5" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-28" value="无法处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-480" y="370" width="120" height="60" as="geometry" />
@@ -2925,19 +2925,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-122" value="确认【差错回复码】" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="242.5" y="850" width="120" height="60" as="geometry" />
+          <mxGeometry x="242.5" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gvVCFOxSMa2MWXzD_gpK-124" target="gvVCFOxSMa2MWXzD_gpK-125">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-124" value="组装【差错处理回执】报文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="242.5" y="950" width="120" height="60" as="geometry" />
+          <mxGeometry x="242.5" y="910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gvVCFOxSMa2MWXzD_gpK-125" target="gvVCFOxSMa2MWXzD_gpK-126">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-125" value="发送808报文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="242.5" y="1050" width="120" height="60" as="geometry" />
+          <mxGeometry x="242.5" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gvVCFOxSMa2MWXzD_gpK-126" target="gvVCFOxSMa2MWXzD_gpK-127">
           <mxGeometry relative="1" as="geometry" />
@@ -2951,18 +2951,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-126" value="是否收到900报文？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="247.5" y="1150" width="110" height="60" as="geometry" />
+          <mxGeometry x="247.5" y="1110" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gvVCFOxSMa2MWXzD_gpK-127" target="gvVCFOxSMa2MWXzD_gpK-140">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="185" y="1290" />
-              <mxPoint x="300" y="1290" />
+              <mxPoint x="185" y="1250" />
+              <mxPoint x="300" y="1250" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-127" value="更新【差错处理记录表】状态为【已回执】" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="125" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="125" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gvVCFOxSMa2MWXzD_gpK-131" target="gvVCFOxSMa2MWXzD_gpK-8">
           <mxGeometry relative="1" as="geometry" />
@@ -2976,7 +2976,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1560" y="-140" />
-              <mxPoint x="1560" y="980" />
+              <mxPoint x="1560" y="940" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2989,7 +2989,7 @@
           <mxGeometry x="245" y="-170" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-140" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="1370" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
