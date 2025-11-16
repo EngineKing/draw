@@ -2845,8 +2845,8 @@
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-96" value="是否记账成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="535" y="460" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gvVCFOxSMa2MWXzD_gpK-97" value="根据原交易重新发起补入账" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="440" y="550" width="120" height="60" as="geometry" />
+        <mxCell id="gvVCFOxSMa2MWXzD_gpK-97" value="根据原交易重新发起补入账（借客户账贷3518）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="441" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-98" value="不进行处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="550" width="120" height="60" as="geometry" />
@@ -2906,7 +2906,7 @@
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-112" value="是否记账成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="925" y="459" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gvVCFOxSMa2MWXzD_gpK-113" value="根据原交易重新发起补入账" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="gvVCFOxSMa2MWXzD_gpK-113" value="根据原交易重新发起补入账（借客户账贷3518）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="830" y="549" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-114" value="不进行处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
