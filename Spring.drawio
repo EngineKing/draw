@@ -3101,7 +3101,7 @@
         <mxCell id="UYv0LB5Kyldumd3uYl40-31" value="更新【通道表】与【业务表】业务状态为成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UYv0LB5Kyldumd3uYl40-1">
           <mxGeometry x="-520" y="544" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UYv0LB5Kyldumd3uYl40-32" value="根据原交易重新发起补入账（借3518贷客户账）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="UYv0LB5Kyldumd3uYl40-1">
+        <mxCell id="UYv0LB5Kyldumd3uYl40-32" value="根据原交易重新发起补入账（&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;如何处理&lt;/font&gt;）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="UYv0LB5Kyldumd3uYl40-1">
           <mxGeometry x="-360" y="544" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UYv0LB5Kyldumd3uYl40-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="UYv0LB5Kyldumd3uYl40-1" source="UYv0LB5Kyldumd3uYl40-34" target="UYv0LB5Kyldumd3uYl40-111">
@@ -3186,7 +3186,7 @@
         <mxCell id="UYv0LB5Kyldumd3uYl40-64" value="更新【通道表】与【业务表】业务状态为成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UYv0LB5Kyldumd3uYl40-1">
           <mxGeometry x="-60" y="544" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UYv0LB5Kyldumd3uYl40-65" value="根据原交易重新发起补入账（借3518贷客户账）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="UYv0LB5Kyldumd3uYl40-1">
+        <mxCell id="UYv0LB5Kyldumd3uYl40-65" value="根据原交易重新发起补入账（&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;如何处理&lt;/font&gt;）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="UYv0LB5Kyldumd3uYl40-1">
           <mxGeometry x="100" y="549" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UYv0LB5Kyldumd3uYl40-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="UYv0LB5Kyldumd3uYl40-1" source="UYv0LB5Kyldumd3uYl40-68" target="UYv0LB5Kyldumd3uYl40-69">
