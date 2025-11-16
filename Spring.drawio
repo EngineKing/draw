@@ -2529,7 +2529,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZFL-47H-qzdgzba8RpgK" name="处理差错数据流程">
-    <mxGraphModel dx="2624" dy="2178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2795" dy="2274" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2643,7 +2643,7 @@
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-20" value="更新【通道表】与【业务表】业务状态为成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-730" y="544" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gvVCFOxSMa2MWXzD_gpK-22" value="根据原交易重新发起补入账" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="gvVCFOxSMa2MWXzD_gpK-22" value="根据原交易重新发起补入账，&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;如果汇款兑出没有记账成功还处理吗？&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-570" y="544" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gvVCFOxSMa2MWXzD_gpK-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gvVCFOxSMa2MWXzD_gpK-27" target="gvVCFOxSMa2MWXzD_gpK-122">
@@ -2999,8 +2999,36 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xG3cBtz5ifPaiS5eh2Q2-1" value="根据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="GD2lTSbLAlDZX1NuTW1O-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xG3cBtz5ifPaiS5eh2Q2-1" target="GD2lTSbLAlDZX1NuTW1O-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xG3cBtz5ifPaiS5eh2Q2-1" value="查询【通道表】中的原交易信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GD2lTSbLAlDZX1NuTW1O-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GD2lTSbLAlDZX1NuTW1O-3" target="GD2lTSbLAlDZX1NuTW1O-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GD2lTSbLAlDZX1NuTW1O-7" value="批发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GD2lTSbLAlDZX1NuTW1O-6">
+          <mxGeometry x="0.2822" relative="1" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GD2lTSbLAlDZX1NuTW1O-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GD2lTSbLAlDZX1NuTW1O-3" target="GD2lTSbLAlDZX1NuTW1O-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GD2lTSbLAlDZX1NuTW1O-10" value="零售" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GD2lTSbLAlDZX1NuTW1O-9">
+          <mxGeometry x="0.3393" relative="1" as="geometry">
+            <mxPoint y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GD2lTSbLAlDZX1NuTW1O-3" value="根据其产品编号判断是批发还是零售？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="300" width="116" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GD2lTSbLAlDZX1NuTW1O-5" value="查询【通道表】中的原交易信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GD2lTSbLAlDZX1NuTW1O-8" value="查询【通道表】中的原交易信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
