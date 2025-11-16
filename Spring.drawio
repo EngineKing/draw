@@ -3358,11 +3358,13 @@
         <mxCell id="GD2lTSbLAlDZX1NuTW1O-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xG3cBtz5ifPaiS5eh2Q2-1" target="GD2lTSbLAlDZX1NuTW1O-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xG3cBtz5ifPaiS5eh2Q2-1" value="查询【通道表】中的原交易信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="xG3cBtz5ifPaiS5eh2Q2-1" value="新增【账务流水表】记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GD2lTSbLAlDZX1NuTW1O-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GD2lTSbLAlDZX1NuTW1O-3" target="GD2lTSbLAlDZX1NuTW1O-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="GD2lTSbLAlDZX1NuTW1O-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GD2lTSbLAlDZX1NuTW1O-3" target="_bzRQ6niS7lpDcpHPYB5-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="390" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="GD2lTSbLAlDZX1NuTW1O-7" value="批发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GD2lTSbLAlDZX1NuTW1O-6">
           <mxGeometry x="0.2822" relative="1" as="geometry">
@@ -3380,11 +3382,65 @@
         <mxCell id="GD2lTSbLAlDZX1NuTW1O-3" value="根据其产品编号判断是批发还是零售？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="362" y="300" width="116" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GD2lTSbLAlDZX1NuTW1O-5" value="查询【通道表】中的原交易信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="390" width="120" height="60" as="geometry" />
+        <mxCell id="_bzRQ6niS7lpDcpHPYB5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GD2lTSbLAlDZX1NuTW1O-8" target="_bzRQ6niS7lpDcpHPYB5-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="570" />
+              <mxPoint x="420" y="570" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="GD2lTSbLAlDZX1NuTW1O-8" value="查询【通道表】中的原交易信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="390" width="120" height="60" as="geometry" />
+        <mxCell id="GD2lTSbLAlDZX1NuTW1O-8" value="调用CV81交易进行补入帐" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_bzRQ6niS7lpDcpHPYB5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_bzRQ6niS7lpDcpHPYB5-1" target="_bzRQ6niS7lpDcpHPYB5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bzRQ6niS7lpDcpHPYB5-4" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_bzRQ6niS7lpDcpHPYB5-3">
+          <mxGeometry x="0.317" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bzRQ6niS7lpDcpHPYB5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_bzRQ6niS7lpDcpHPYB5-1" target="_bzRQ6niS7lpDcpHPYB5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bzRQ6niS7lpDcpHPYB5-7" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_bzRQ6niS7lpDcpHPYB5-6">
+          <mxGeometry x="0.1699" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bzRQ6niS7lpDcpHPYB5-1" value="查询【账务流水表】中是否存在原交易的3518账务流水？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="390" width="116" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_bzRQ6niS7lpDcpHPYB5-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_bzRQ6niS7lpDcpHPYB5-2" target="_bzRQ6niS7lpDcpHPYB5-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bzRQ6niS7lpDcpHPYB5-2" value="调用A827交易（借3518贷客户账）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_bzRQ6niS7lpDcpHPYB5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_bzRQ6niS7lpDcpHPYB5-5" target="_bzRQ6niS7lpDcpHPYB5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bzRQ6niS7lpDcpHPYB5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_bzRQ6niS7lpDcpHPYB5-5" target="_bzRQ6niS7lpDcpHPYB5-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bzRQ6niS7lpDcpHPYB5-5" value="调用A827交易（借2046贷3518）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_bzRQ6niS7lpDcpHPYB5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_bzRQ6niS7lpDcpHPYB5-15" target="xG3cBtz5ifPaiS5eh2Q2-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bzRQ6niS7lpDcpHPYB5-15" value="查询【通道表】中的原交易信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_bzRQ6niS7lpDcpHPYB5-21" value="更新【账务流水表】状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_bzRQ6niS7lpDcpHPYB5-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_bzRQ6niS7lpDcpHPYB5-25" target="_bzRQ6niS7lpDcpHPYB5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bzRQ6niS7lpDcpHPYB5-25" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="364" y="30" width="116" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
