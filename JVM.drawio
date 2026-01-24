@@ -1,9 +1,48 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.4">
   <diagram name="第 1 页" id="HEB9QS2GQRe1oEpqM2Uj">
-    <mxGraphModel>
+    <mxGraphModel dx="1215" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YIGtQcYK2ZkflxHOEVH9-13" edge="1" parent="1" source="YIGtQcYK2ZkflxHOEVH9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=简宋;fontSize=12;fontColor=default;startArrow=classic;startFill=1;" target="YIGtQcYK2ZkflxHOEVH9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YIGtQcYK2ZkflxHOEVH9-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;align=center;verticalAlign=top;fontFamily=简宋;fontSize=12;fontColor=#333333;fillColor=#f5f5f5;" value="运行时数据区" vertex="1">
+          <mxGeometry height="120" width="300" x="190" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="YIGtQcYK2ZkflxHOEVH9-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=简宋;" value="方法区" vertex="1">
+          <mxGeometry height="30" width="80" x="200" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YIGtQcYK2ZkflxHOEVH9-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;fontFamily=简宋;" value="虚拟机栈" vertex="1">
+          <mxGeometry height="30" width="80" x="300" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YIGtQcYK2ZkflxHOEVH9-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;fontFamily=简宋;" value="本地方法栈" vertex="1">
+          <mxGeometry height="30" width="80" x="400" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YIGtQcYK2ZkflxHOEVH9-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=简宋;" value="堆" vertex="1">
+          <mxGeometry height="30" width="80" x="200" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="YIGtQcYK2ZkflxHOEVH9-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;fontFamily=简宋;" value="程序计数器" vertex="1">
+          <mxGeometry height="30" width="180" x="300" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="YIGtQcYK2ZkflxHOEVH9-11" edge="1" parent="1" source="YIGtQcYK2ZkflxHOEVH9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=简宋;fontSize=12;fontColor=default;" target="YIGtQcYK2ZkflxHOEVH9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YIGtQcYK2ZkflxHOEVH9-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=简宋;" value="执行引擎" vertex="1">
+          <mxGeometry height="30" width="80" x="200" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="YIGtQcYK2ZkflxHOEVH9-12" edge="1" parent="1" source="YIGtQcYK2ZkflxHOEVH9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=简宋;fontSize=12;fontColor=default;" target="YIGtQcYK2ZkflxHOEVH9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YIGtQcYK2ZkflxHOEVH9-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=简宋;" value="本地库接口" vertex="1">
+          <mxGeometry height="30" width="80" x="300" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="YIGtQcYK2ZkflxHOEVH9-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=简宋;fontSize=12;fontColor=default;" value="本地&lt;div&gt;方法库&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="414" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="YIGtQcYK2ZkflxHOEVH9-14" edge="1" parent="1" source="YIGtQcYK2ZkflxHOEVH9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.166;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=简宋;fontSize=12;fontColor=default;startArrow=classic;startFill=1;" target="YIGtQcYK2ZkflxHOEVH9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
