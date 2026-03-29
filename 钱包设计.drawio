@@ -17,7 +17,7 @@
           <mxGeometry height="180" width="280" x="600" y="80" as="geometry" />
         </mxCell>
         <mxCell id="WU7JPcXDjf1YOXn551N9-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=简宋;fontSize=16;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="渠道" vertex="1">
-          <mxGeometry height="140" width="600" x="280" y="-100" as="geometry" />
+          <mxGeometry height="140" width="600" x="280" y="-70" as="geometry" />
         </mxCell>
         <mxCell id="WU7JPcXDjf1YOXn551N9-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=简宋;fontSize=16;fontColor=default;fillColor=default;" value="开立（渠道校验、业务校验）" vertex="1">
           <mxGeometry height="60" width="120" x="300" y="120" as="geometry" />
@@ -26,13 +26,13 @@
           <mxGeometry height="200" width="600" x="280" y="290" as="geometry" />
         </mxCell>
         <mxCell id="WU7JPcXDjf1YOXn551N9-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;align=center;verticalAlign=middle;fontFamily=简宋;fontSize=16;fillColor=#d5e8d4;" value="行内渠道" vertex="1">
-          <mxGeometry height="60" width="240" x="300" y="-50" as="geometry" />
+          <mxGeometry height="60" width="240" x="300" y="-20" as="geometry" />
         </mxCell>
         <mxCell id="WU7JPcXDjf1YOXn551N9-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=简宋;fontSize=16;fontColor=default;fillColor=default;" value="开立（开钱包、开客户、开账户）" vertex="1">
           <mxGeometry height="60" width="250" x="300" y="330" as="geometry" />
         </mxCell>
         <mxCell id="WU7JPcXDjf1YOXn551N9-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;align=center;verticalAlign=middle;fontFamily=简宋;fontSize=16;fillColor=#d5e8d4;" value="数研所" vertex="1">
-          <mxGeometry height="60" width="240" x="620" y="-50" as="geometry" />
+          <mxGeometry height="60" width="240" x="620" y="-20" as="geometry" />
         </mxCell>
         <mxCell id="WU7JPcXDjf1YOXn551N9-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=简宋;fontSize=16;fontColor=default;fillColor=default;" value="注销（销钱包、销客户、销账户）" vertex="1">
           <mxGeometry height="60" width="250" x="610" y="330" as="geometry" />
