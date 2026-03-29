@@ -1,9 +1,66 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.3.8">
   <diagram name="第 1 页" id="RQxZfTsbNzPch2Br8KLS">
-    <mxGraphModel>
+    <mxGraphModel dx="849" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WU7JPcXDjf1YOXn551N9-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#ff0000, #ededed);align=center;verticalAlign=middle;fontFamily=简宋;fontSize=16;fontColor=default;fillColor=none;dashed=1;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="250" width="640" x="260" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="WU7JPcXDjf1YOXn551N9-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=简宋;fontSize=16;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="个人钱包业务微服务" vertex="1">
+          <mxGeometry height="180" width="280" x="280" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WU7JPcXDjf1YOXn551N9-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=简宋;fontSize=16;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="个人钱包支付微服务" vertex="1">
+          <mxGeometry height="180" width="280" x="600" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WU7JPcXDjf1YOXn551N9-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=简宋;fontSize=16;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="渠道" vertex="1">
+          <mxGeometry height="140" width="600" x="280" y="-100" as="geometry" />
+        </mxCell>
+        <mxCell id="WU7JPcXDjf1YOXn551N9-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=简宋;fontSize=16;fontColor=default;fillColor=default;" value="开立（渠道校验、业务校验）" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WU7JPcXDjf1YOXn551N9-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=简宋;fontSize=16;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="个人钱包基础微服务" vertex="1">
+          <mxGeometry height="200" width="600" x="280" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="WU7JPcXDjf1YOXn551N9-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;align=center;verticalAlign=middle;fontFamily=简宋;fontSize=16;fillColor=#d5e8d4;" value="行内渠道" vertex="1">
+          <mxGeometry height="60" width="240" x="300" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="WU7JPcXDjf1YOXn551N9-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=简宋;fontSize=16;fontColor=default;fillColor=default;" value="开立（开钱包、开客户、开账户）" vertex="1">
+          <mxGeometry height="60" width="250" x="300" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="WU7JPcXDjf1YOXn551N9-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;align=center;verticalAlign=middle;fontFamily=简宋;fontSize=16;fillColor=#d5e8d4;" value="数研所" vertex="1">
+          <mxGeometry height="60" width="240" x="620" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="WU7JPcXDjf1YOXn551N9-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=简宋;fontSize=16;fontColor=default;fillColor=default;" value="注销（销钱包、销客户、销账户）" vertex="1">
+          <mxGeometry height="60" width="250" x="610" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="WU7JPcXDjf1YOXn551N9-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=简宋;fontSize=16;fontColor=default;fillColor=default;" value="升级/降级" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="WU7JPcXDjf1YOXn551N9-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=简宋;fontSize=16;fontColor=default;fillColor=default;" value="挂失/解挂" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="WU7JPcXDjf1YOXn551N9-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=简宋;fontSize=16;fontColor=default;fillColor=default;" value="验密/改密" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="WU7JPcXDjf1YOXn551N9-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=简宋;fontSize=16;fontColor=default;fillColor=default;" value="挂失/解挂" vertex="1">
+          <mxGeometry height="60" width="120" x="740" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="WU7JPcXDjf1YOXn551N9-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=简宋;fontSize=16;fontColor=default;fillColor=default;" value="注销（渠道校验、业务校验）" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WU7JPcXDjf1YOXn551N9-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=简宋;fontSize=16;fontColor=default;fillColor=default;" value="其他钱包功能（业务逻辑封装）" vertex="1">
+          <mxGeometry height="60" width="250" x="300" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="WU7JPcXDjf1YOXn551N9-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=简宋;fontSize=16;fontColor=default;fillColor=default;" value="兑出（渠道校验、业务校验）" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WU7JPcXDjf1YOXn551N9-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=简宋;fontSize=16;fontColor=default;fillColor=default;" value="转账（渠道校验、业务校验）" vertex="1">
+          <mxGeometry height="60" width="120" x="740" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WU7JPcXDjf1YOXn551N9-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=简宋;fontSize=16;fontColor=default;fillColor=default;" value="其他钱包支付功能（业务逻辑封装）" vertex="1">
+          <mxGeometry height="60" width="250" x="610" y="190" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
