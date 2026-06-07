@@ -193,19 +193,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SGLpqgHKSFk0ifmd0eW0-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="堵塞条件被清除后，重新进入就绪状态，等待CPU资源" vertex="1">
-          <mxGeometry height="60" width="180" x="7680" y="285" as="geometry" />
+          <mxGeometry height="60" width="180" x="7710" y="285" as="geometry" />
         </mxCell>
         <mxCell id="SGLpqgHKSFk0ifmd0eW0-21" edge="1" parent="1" source="SGLpqgHKSFk0ifmd0eW0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SGLpqgHKSFk0ifmd0eW0-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SGLpqgHKSFk0ifmd0eW0-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="获得CPU时间，转换为运行状态" vertex="1">
-          <mxGeometry height="60" width="180" x="7680" y="395" as="geometry" />
+          <mxGeometry height="60" width="180" x="7710" y="395.5" as="geometry" />
         </mxCell>
         <mxCell id="SGLpqgHKSFk0ifmd0eW0-23" edge="1" parent="1" source="SGLpqgHKSFk0ifmd0eW0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SGLpqgHKSFk0ifmd0eW0-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SGLpqgHKSFk0ifmd0eW0-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.正常终止，执行完所有工作，正常结束&lt;div&gt;2.强制终止，如调用stop和destroy函数&lt;/div&gt;&lt;div&gt;3.异常终止，线程执行过程中发生异常&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="220" x="7640" y="495" as="geometry" />
+          <mxGeometry height="60" width="220" x="7670" y="495" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
