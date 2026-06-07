@@ -47,7 +47,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="aU0aIyvCGj9sD42GOiIt" name="第 2 页">
-    <mxGraphModel dx="-7025" dy="1151" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-7074" dy="1057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,10 +117,10 @@
         <mxCell id="_YAPwBpi9esezw_D6OPL-19" edge="1" parent="1" source="_YAPwBpi9esezw_D6OPL-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=16;fontColor=default;startSize=8;endSize=8;" target="_YAPwBpi9esezw_D6OPL-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_YAPwBpi9esezw_D6OPL-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=宋体;fontSize=16;fontColor=default;fillColor=default;" value="" vertex="1">
+        <mxCell id="_YAPwBpi9esezw_D6OPL-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=宋体;fontSize=16;fillColor=#dae8fc;" value="" vertex="1">
           <mxGeometry height="26" width="26" x="7880" y="-253.5" as="geometry" />
         </mxCell>
-        <mxCell id="_YAPwBpi9esezw_D6OPL-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=宋体;fontSize=16;fontColor=default;fillColor=default;" value="" vertex="1">
+        <mxCell id="_YAPwBpi9esezw_D6OPL-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=宋体;fontSize=16;fillColor=#dae8fc;" value="" vertex="1">
           <mxGeometry height="26" width="26" x="8082.5" y="54" as="geometry" />
         </mxCell>
         <mxCell id="_YAPwBpi9esezw_D6OPL-23" edge="1" parent="1" source="_YAPwBpi9esezw_D6OPL-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.457;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=宋体;fontSize=16;fontColor=default;startSize=8;endSize=8;" target="_YAPwBpi9esezw_D6OPL-7">
@@ -134,6 +134,78 @@
         </mxCell>
         <mxCell id="_YAPwBpi9esezw_D6OPL-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=16;fontColor=default;" value="acquire lock interrupt" vertex="1">
           <mxGeometry height="46" width="81" x="8297" y="-149" as="geometry" />
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-6" edge="1" parent="1" source="SGLpqgHKSFk0ifmd0eW0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="SGLpqgHKSFk0ifmd0eW0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-7" connectable="0" parent="SGLpqgHKSFk0ifmd0eW0-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="调用start()方法" vertex="1">
+          <mxGeometry relative="1" x="-0.1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-1" parent="1" style="rounded=0;html=1;fontFamily=宋体;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="新建状态" vertex="1">
+          <mxGeometry height="50" width="105" x="7958" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-8" edge="1" parent="1" source="SGLpqgHKSFk0ifmd0eW0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="SGLpqgHKSFk0ifmd0eW0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-9" connectable="0" parent="SGLpqgHKSFk0ifmd0eW0-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="系统调度，获取CPU时间" vertex="1">
+          <mxGeometry relative="1" x="-0.2143" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-2" parent="1" style="rounded=0;html=1;fontFamily=宋体;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" value="就绪状态" vertex="1">
+          <mxGeometry height="50" width="105" x="7958" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-10" edge="1" parent="1" source="SGLpqgHKSFk0ifmd0eW0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="SGLpqgHKSFk0ifmd0eW0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-11" connectable="0" parent="SGLpqgHKSFk0ifmd0eW0-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Run方法执行完毕" vertex="1">
+          <mxGeometry relative="1" x="-0.1371" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-12" edge="1" parent="1" source="SGLpqgHKSFk0ifmd0eW0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="SGLpqgHKSFk0ifmd0eW0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-3" parent="1" style="rounded=0;html=1;fontFamily=宋体;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" value="运行状态" vertex="1">
+          <mxGeometry height="50" width="105" x="7958" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-4" parent="1" style="rounded=0;html=1;fontFamily=宋体;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="死亡状态" vertex="1">
+          <mxGeometry height="50" width="105" x="7958" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-13" edge="1" parent="1" source="SGLpqgHKSFk0ifmd0eW0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="SGLpqgHKSFk0ifmd0eW0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-5" parent="1" style="rounded=0;html=1;fontFamily=宋体;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" value="阻塞状态" vertex="1">
+          <mxGeometry height="49" width="105" x="8192" y="341" as="geometry" />
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.进入synchronized()&lt;div&gt;2.代码段未申请到想要的锁&lt;/div&gt;&lt;div&gt;3.调用了sleep()、join()、wait()、notify()方法&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="8120" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="正在执行的线程因为某种原因被阻塞，暂时让出CPU资源" vertex="1">
+          <mxGeometry height="60" width="180" x="8310" y="335.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="堵塞条件被清除后，重新进入就绪状态，等待CPU资源" vertex="1">
+          <mxGeometry height="60" width="180" x="8120" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-19" edge="1" parent="1" source="SGLpqgHKSFk0ifmd0eW0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SGLpqgHKSFk0ifmd0eW0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="堵塞条件被清除后，重新进入就绪状态，等待CPU资源" vertex="1">
+          <mxGeometry height="60" width="180" x="7680" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-21" edge="1" parent="1" source="SGLpqgHKSFk0ifmd0eW0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SGLpqgHKSFk0ifmd0eW0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="获得CPU时间，转换为运行状态" vertex="1">
+          <mxGeometry height="60" width="180" x="7680" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-23" edge="1" parent="1" source="SGLpqgHKSFk0ifmd0eW0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SGLpqgHKSFk0ifmd0eW0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SGLpqgHKSFk0ifmd0eW0-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.正常终止，执行完所有工作，正常结束&lt;div&gt;2.强制终止，如调用stop和destroy函数&lt;/div&gt;&lt;div&gt;3.异常终止，线程执行过程中发生异常&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="7640" y="495" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
